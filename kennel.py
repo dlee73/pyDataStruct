@@ -74,6 +74,7 @@ class Dog:
 mcgrady = Kennel(kennel_name="Mcgrady")
 steve = Dog(name="Steve", age=9)
 mcgrady.intake_existing_dog(steve)
+lila = Dog(name="Lila", age=9)
 print(steve)
 print(mcgrady)
 
